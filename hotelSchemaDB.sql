@@ -22,7 +22,7 @@ create table Amenities(
 create table Room(
 	roomId INT primary key,
     roomType VARCHAR(30),
-    amenitiesName INT NOT NULL,
+    amenitiesName VARCHAR(50) NOT NULL,
 	adaAccess CHAR(3),
     stdOccup INT,
     maxOccup INT,
